@@ -1,0 +1,36 @@
+.hero{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  
+  
+  height: 75vh;
+  margin: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #3E4C9F;
+}
+
+#inp{
+  margin: 25px 0 15px 0;
+  border-radius: 7px ;
+  border : 0px;
+  height:50px;
+  font-weight: bold;
+  color: #3E4C9F;
+  
+}
+h1{
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    background-color:#3E4C9F;
+  }
+  .hero{
+    box-shadow: none;
+  }
+}
